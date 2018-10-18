@@ -778,7 +778,9 @@ int usb_current_table[] = {
 	2300,
 	2400,
 	2500,
-	3000
+	3000,
+	3500,
+	4000
 };
 
 int dc_current_table[] = {

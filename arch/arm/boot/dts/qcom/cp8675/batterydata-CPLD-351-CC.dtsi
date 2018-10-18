@@ -13,7 +13,7 @@
 /* manufacturer is π‚”Ó */
 
 qcom,CPLD-312-CC-data {
-	qcom,fcc-mah = <2500>;
+	qcom,fcc-mah = <4000>;
 	qcom,default-rbatt-mohm = <189>;
 	qcom,rbatt-capacitive-mohm = <0>;
 	qcom,flat-ocv-threshold-uv = <3800000>;

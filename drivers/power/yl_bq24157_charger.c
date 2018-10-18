@@ -188,7 +188,7 @@ enum batt_temp_threshold {
 	BATT_TEMP_HOT_THRESHOLD = 600,
 };
 
-#define BATT_FULL_CAPA   2500
+#define BATT_FULL_CAPA   4000
 
 /* limit current is 0.1C */
 #define CHG_CURR_LIMIT_COLD                        (BATT_FULL_CAPA / 7)
@@ -1102,7 +1102,7 @@ static int bq24157_get_prop_charge_full_design(struct bq24157_chip *chip)
 	union power_supply_propval ret = {0, };
 
 
-	ret.intval = 2500;
+	ret.intval = 4000;
 	return ret.intval;
 
 }

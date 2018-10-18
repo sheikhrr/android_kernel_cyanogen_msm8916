@@ -236,7 +236,7 @@ struct chg_current_map {
 
 static int chg_current[] = {
 	500, 900, 1000, 1100, 1200, 1300, 1500, 1600,
-	1700, 1800, 2000, 2200, 2400, 2500, 3000, 3500,
+	1700, 1800, 2000, 2200, 2400, 2500, 3000, 3500, 4000,
 };
 
 static int smb349_read_reg(struct smb349_charger *chip, int reg, u8 *val)

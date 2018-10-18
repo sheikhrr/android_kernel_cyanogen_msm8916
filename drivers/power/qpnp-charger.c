@@ -457,7 +457,7 @@ module_param(ext_ovp_isns_r, int, 0444);
 static bool ext_ovp_isns_online;
 static long ext_ovp_isns_ua;
 #define MAX_CURRENT_LENGTH_9A	10
-#define ISNS_CURRENT_RATIO	2500
+#define ISNS_CURRENT_RATIO	4000
 static int ext_ovp_isns_read(char *buffer, const struct kernel_param *kp)
 {
 	int rc;
@@ -903,7 +903,7 @@ qpnp_chg_is_ichg_loop_active(struct qpnp_chg_chip *chip)
 #define QPNP_CHG_I_MAX_MIN_100		100
 #define QPNP_CHG_I_MAX_MIN_150		150
 #define QPNP_CHG_I_MAX_MIN_MA		200
-#define QPNP_CHG_I_MAX_MAX_MA		2500
+#define QPNP_CHG_I_MAX_MAX_MA		4000
 #define QPNP_CHG_I_MAXSTEP_MA		100
 static int
 qpnp_chg_idcmax_set(struct qpnp_chg_chip *chip, int mA)

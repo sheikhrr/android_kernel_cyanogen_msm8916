@@ -340,6 +340,12 @@ static int ab8500_fg_lowbat_voltage_map[] = {
 	3825 ,
 	3850 ,
 	3850 ,
+	3875 ,
+	3900 ,
+	3925 ,
+	3950 ,
+	3975 ,
+	4000 ,
 };
 
 static u8 ab8500_volt_to_regval(int voltage)

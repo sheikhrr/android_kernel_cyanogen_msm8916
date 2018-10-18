@@ -10,7 +10,7 @@
  * GNU General Public License for more details.
  */
 
-qcom,qrd-4v35-2500mAh-data {
+qcom,qrd-4v35-4000mAh-data {
 	qcom,fcc-mah = <4000>;
 	qcom,default-rbatt-mohm = <198>;
 	qcom,rbatt-capacitive-mohm = <0>;
