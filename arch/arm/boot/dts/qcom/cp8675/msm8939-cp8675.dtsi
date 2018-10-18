@@ -113,7 +113,7 @@
 		yl,bk_level_offset_step = <5>;
 		yl,pon_volt_delta = <50>;
 		yl,voltage_max_uv = <4350000>;
-		yl,capa_design_mAH = <2500>;
+		yl,capa_design_mAH = <4000>;
 		yl,soc_high_scaled = <98>;
 		yl,soc_low_scaled = <3>;
 		qcom,yl_adc-vadc=<&pm8916_vadc>;
@@ -151,25 +151,25 @@
 				yl,rpull-up-kohm = <100>;
 				yl,vref-batt-id-uv = <1800000>;
 				yl,CPLD-351-BB-data {
-					yl,batt-full-capa = <2500>;
+					yl,batt-full-capa = <4000>;
 					yl,batt-id-kohm = <47>;
 					yl,battery-type = "CPLD-351-BB";
 					yl,battery-appli = <0x0025>;
 				};
 				yl,CPLD-351-CC-data {
-					yl,batt-full-capa = <2500>;
+					yl,batt-full-capa = <4000>;
 					yl,batt-id-kohm = <1>;
 					yl,battery-type = "CPLD-351-CC";
 					yl,battery-appli = <0x0038>;
 				};
 				yl,CPLD-351-LS-data {
-					yl,batt-full-capa = <2500>;
+					yl,batt-full-capa = <4000>;
 					yl,batt-id-kohm = <220>;
 					yl,battery-type = "CPLD-351-LS";
 					yl,battery-appli = <0x0033>;
 				};
 				yl,CPLD-351-TM-data {
-					yl,batt-full-capa = <2500>;
+					yl,batt-full-capa = <4000>;
 					yl,batt-id-kohm = <1000>;
 					yl,battery-type = "CPLD-351-TM";
 					yl,battery-appli = <0x002D>;

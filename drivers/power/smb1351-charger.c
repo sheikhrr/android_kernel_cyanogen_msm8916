@@ -600,7 +600,7 @@ struct irq_handler_info {
 /* USB input charge current */
 static int usb_chg_current[] = {
 	500, 685, 1000, 1100, 1200, 1300, 1500, 1600,
-	1700, 1800, 2000, 2200, 2500, 3000,
+	1700, 1800, 2000, 2200, 2500, 3000, 3500, 4000,
 };
 
 static int fast_chg_current[] = {

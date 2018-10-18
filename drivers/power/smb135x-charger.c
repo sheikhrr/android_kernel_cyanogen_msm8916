@@ -855,7 +855,8 @@ static int fastchg_current_table[] = {
 	2300,
 	2400,
 	2500,
-	3000
+	3000,
+	4000
 };
 
 static int usb_current_table_smb1357_smb1358[] = {
@@ -890,7 +891,8 @@ static int usb_current_table_smb1357_smb1358[] = {
 	2300,
 	2400,
 	2500,
-	3000
+	3000,
+	4000
 };
 
 static int usb_current_table_smb1359[] = {

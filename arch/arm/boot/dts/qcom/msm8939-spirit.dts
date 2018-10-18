@@ -32,7 +32,7 @@
 		pinctrl-0 = <&smb_int_default>;
 		qcom,stat-pulsed-irq;
 		qcom,chg-inhibit-disabled;
-		qcom,fg-batt-capacity-mah = <2500>;
+		qcom,fg-batt-capacity-mah = <4000>;
 		qcom,fg-cc-soc-coeff = <0x828E>;
 		qcom,float-voltage-mv = <4350>;
 		qcom,fg-cc-to-cv-mv = <4330>;

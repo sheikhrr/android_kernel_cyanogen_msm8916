@@ -399,7 +399,7 @@ static int lc709203_batt_get_property(struct power_supply *psy,
 			val->intval = lc709203_batt_capacity(chip);
 			break;
 		case POWER_SUPPLY_PROP_CHARGE_FULL_DESIGN:
-			val->intval = 2500;
+			val->intval = 4000;
 			break;
 		case POWER_SUPPLY_PROP_VOLTAGE_MAX_DESIGN:
 			val->intval = 4350000;
@@ -604,7 +604,7 @@ static int set_battery_data(struct lc709203_chip *chip)
 	rc = of_property_read_u32(best_batt_node, "yl,batt-full-capa", &batt_data->spec_battery_data->batt_full_capa);
 	if (rc){
 		dev_err(chip->dev, "Failed to read battery batt_full_capa\n");
-		batt_data->spec_battery_data->batt_full_capa = 2500;
+		batt_data->spec_battery_data->batt_full_capa = 4000;
 		rc = 0;
 	}
 

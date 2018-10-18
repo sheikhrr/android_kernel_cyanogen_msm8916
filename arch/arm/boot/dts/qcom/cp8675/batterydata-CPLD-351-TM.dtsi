@@ -13,7 +13,7 @@
 /* manufacturer is 中山天贸电池有限公司 */
 
 qcom,CPLD-312-TM-data {
-	qcom,fcc-mah = <2500>;
+	qcom,fcc-mah = <4000>;
 	qcom,default-rbatt-mohm = <177>;
 	qcom,rbatt-capacitive-mohm = <0>;
 	qcom,flat-ocv-threshold-uv = <3800000>;
